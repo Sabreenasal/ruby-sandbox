@@ -1,5 +1,5 @@
-my_string = "Hello, world!"
+pp "What's your name?"
 
-pp my_string
+their_name = gets.chomp
 
-require "./goodbye.rb"
+pp "Hello, " + their_name + "!"
